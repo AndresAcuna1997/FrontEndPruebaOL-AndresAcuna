@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fondo_tablas {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100vh;
+}
+.container_padre,
+.tabla_mid,
+.tabla_top {
+  display: flex;
+  flex-direction: row;
+}
+ul li::marker {
+  color: transparent;
+}
+ul h2 {
+  font-weight: lighter;
+}
+.main_menu {
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 100vh;
+  background: linear-gradient(
+    360deg,
+    rgba(30, 69, 174, 1) 0%,
+    rgba(66, 172, 239, 1) 100%
+  );
+  overflow: hidden;
+  white-space: nowrap;
+  transition: 0.3s ease;
+}
+.main_menu:hover {
+  width: 17%;
+}
+.main_menu .menu_item {
+  padding: 20px;
+  color: white;
+}
+.main_menu .menu_item:hover {
+  cursor: pointer;
+  background-color: #3f75ac;
+}
+.main_menu .menu_item .fa {
+  font-size: 25px;
+  width: 50px;
+}
+.titulo {
+  font-size: 20px;
+}
+.tablas_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.tabla_top,
+.tabla_bottom {
+  width: 100%;
+  background-color: white;
+  height: 65px;
+}
+.tabla_top {
+  justify-content: space-between;
+  top: 0;
+}
+.tabla_bottom {
+  text-align: end;
+  position: relative;
+  bottom: 0;
+}
+.tabla_bottom p {
+  padding: 20px;
+}
+.tabla_mid {
+  position: relative;
+}
+.logout .logout_lista {
+  display: inline-flex;
+  padding: 20px;
+}
+.logout .logout_lista li {
+  margin-left: 2rem;
+}
+.logout .logout_lista i {
+  font-size: 25px;
+}
+.logout .logout_lista p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.color_iconos {
+  color: #1d43ad;
+  cursor: pointer;
+}
+.logout .logout_lista img {
+  width: 30px;
+}
+.tabla_top div {
+  margin: 0px 10px 0px 10px;
+}
+.tabla_top h2 {
+  font-weight: normal;
+}
+.tabla_mid div {
+  margin: 20px 20px 20px 20px;
+}
+.tabla_mid .tabla_datos {
+  width: 83%;
+  background-color: white;
+  border-radius: 5px;
+}
+.tabla_mid .tabla_filtros {
+  width: 17%;
+  background-color: white;
+  border-radius: 5px;
+}
+.tabla_mid .tabla_filtros h2 {
+  margin: 10px 0px 0px 20px;
+  font-weight: normal;
+}
+.tabla_mid .tabla_filtros .div_filtros {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 5px;
+}
+.tabla_mid .tabla_filtros .div_filtros label {
+  color: #9a9a9a;
+  margin-bottom: 5px;
+}
+.tabla_mid .tabla_filtros .div_filtros input,
+select {
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.filtros_btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tabla_mid .tabla_filtros .filtros_btns input[type="submit"] {
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.tabla_mid .tabla_filtros .filtros_btns input[value="Filtrar"] {
+  border: 0px solid transparent;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(138, 193, 70, 1) 0%,
+    rgba(103, 158, 36, 1) 100%
+  );
+}
+.tabla_mid .tabla_filtros .filtros_btns input[value="Limpiar"] {
+  color: #90c55d;
+  border: 1px solid #8ec54a;
+  background-color: transparent;
+}
+.tabla_mid .tabla_datos .seccion_superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabla_mid .tabla_datos .seccion_superior button {
+  background-color: rgba(30, 69, 174, 1);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 0px 35px;
+  height: 35px;
+  margin: 10px;
+  cursor: pointer;
+}
+.tabla_mid .tabla_datos .seccion_superior h2,
+button {
+  font-weight: normal;
+}
+.tabla_mid .tabla_datos .seccion_tabla table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tabla_mid .tabla_datos .seccion_tabla tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+}
+.tabla_mid .tabla_datos .seccion_tabla .indicadores_table th {
+  font-weight: normal;
+  padding: 10px;
+}
+.tabla_mid .tabla_datos .seccion_tabla .datos_tabla td {
+  padding: 10px;
+  font-weight: lighter;
+}
+.paginacion_tabla {
+  display: flex;
+  justify-content: flex-end;
+}
+.tabla_mid .tabla_datos .paginacion_tabla ul {
+  display: inline-flex;
+}
+.tabla_mid .tabla_datos .paginacion_tabla ul li {
+  font-weight: lighter;
+  padding: 5px;
+}
+.tabla_mid .tabla_datos .paginacion_tabla ul li i {
+  color: rgba(30, 69, 174, 1);
+}

@@ -1,0 +1,86 @@
+.fondo {
+  background-image: url("../imagenes/fondo_login.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.login_page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.login_container {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px gray;
+}
+.formulario_login {
+  text-align: center;
+}
+.formulario_login h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+.formulario_login input[type="submit"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #2f51e0;
+  color: white;
+  border-radius: 5px;
+  border: 0 solid transparent;
+}
+.formulario_login input[type="text"],
+input[type="password"] {
+  font-size: 16px;
+  color: #949494;
+}
+.inputs_formulario input {
+  width: inherit;
+  padding: 15px;
+  border: 0px;
+}
+
+.inputs_formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 12px lightgray;
+}
+.input_icons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.icon {
+  position: relative;
+  padding: 15px;
+  font-weight: normal;
+  color: lightgray;
+}
+.subheader {
+  width: 90%;
+}
+.bottom_text {
+  text-align: center;
+}
+.text_logincreen {
+  color: white;
+}
+.text_logincreen .subheader {
+  font-weight: normal;
+  line-height: 3rem;
+}
+.input_usuario {
+  border-bottom: 1px solid lightgray;
+}
+.input_campo:focus {
+  color: black !important;
+}

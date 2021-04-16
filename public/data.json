@@ -1,0 +1,74 @@
+[
+  {
+    "nombres": "Andres Felipe",
+    "apellidos": "Garcia Castro",
+    "identificacion": "114485404",
+    "rol": "Administrador",
+    "estado": "Activo",
+    "telefono": "3165303978",
+    "correo": "afgarcia@refinal.edu.co"
+  },
+  {
+    "nombres": "Elizabeth",
+    "apellidos": "Arboleda",
+    "identificacion": "665789080",
+    "rol": "Administrador",
+    "estado": "Inactivo",
+    "telefono": "3165303978",
+    "correo": "earboleda@refinal.com"
+  },
+  {
+    "nombres": "Jader",
+    "apellidos": "Penagos",
+    "identificacion": "665789043",
+    "rol": "Conductor",
+    "estado": "Activo",
+    "telefono": "3175303978",
+    "correo": "jpenagos@refinal.com"
+  },
+  {
+    "nombres": "Diana",
+    "apellidos": "Villa",
+    "identificacion": "1122567890",
+    "rol": "Recolector",
+    "estado": "Activo",
+    "telefono": "3005303976",
+    "correo": "dvilla@refinal.com"
+  },
+  {
+    "nombres": "Luis Andrés",
+    "apellidos": "Murillo",
+    "identificacion": "1144198789",
+    "rol": "Administrador",
+    "estado": "Activo",
+    "telefono": "3115134078",
+    "correo": "lamurillo@refinal.com"
+  },
+  {
+    "nombres": "Jairo",
+    "apellidos": "Gutierrez",
+    "identificacion": "44789056",
+    "rol": "Coordinador",
+    "estado": "Activo",
+    "telefono": "3125333977",
+    "correo": "jgutierrez@refinal.com"
+  },
+  {
+    "nombres": "Alexandra",
+    "apellidos": "Culcha",
+    "identificacion": "1144198786",
+    "rol": "Digitador CG-UNO",
+    "estado": "Inactivo",
+    "telefono": "3145439560",
+    "correo": "aculcha@refinal.com"
+  },
+  {
+    "nombres": "Valentina",
+    "apellidos": "Zapata",
+    "identificacion": "72567788",
+    "rol": "Recolector",
+    "estado": "Activo",
+    "telefono": "3157893970",
+    "correo": "vzapata@refinal.com"
+  }
+]
