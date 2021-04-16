@@ -8,8 +8,7 @@ const CrearUsuario = ({ setCompCargado }) => {
   const [password, setPassword] = useState("");
   const [telefono, setTelefono] = useState("");
   const [correo, setCorreo] = useState("");
-  const [rol, setRol] = useState("");
-  const [estado, setEstado] = useState("");
+
 
   const handleButton = (e) => {
     e.preventDefault();
@@ -33,12 +32,7 @@ const CrearUsuario = ({ setCompCargado }) => {
   const handleChangeCorreo = (e) => {
     setCorreo(e.target.value);
   };
-  const handleChangeRol = (e) => {
-    setRol(e.target.value);
-  };
-  const handleChangeEstado = (e) => {
-    setEstado(e.target.value);
-  };
+
 
   return (
     <div className="fondo_creacion_formulario">
@@ -115,7 +109,6 @@ const CrearUsuario = ({ setCompCargado }) => {
                   <select
                     name="rol_usuario"
                     id="rol"
-                    onChange={handleChangeRol}
                   >
                     <option value="Administrador">Administrador</option>
                     <option value="Conductor">Conductor</option>
@@ -130,7 +123,6 @@ const CrearUsuario = ({ setCompCargado }) => {
                   <select
                     name="estado_usurio"
                     id="estado"
-                    onChange={handleChangeEstado}
                   >
                     <option value="Activo">Activo</option>
                     <option value="Inactivo">Inactivo</option>
