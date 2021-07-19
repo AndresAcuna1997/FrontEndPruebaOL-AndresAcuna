@@ -5,6 +5,7 @@ const LoginScreen = ({ setCompCargado }) => {
   const [user, setUser] = useState("Usuario");
   const [pass, setPass] = useState("Constaseña");
 
+
   const handleChangeUsuario = (texto) => {
     setUser(texto.target.value);
   };
