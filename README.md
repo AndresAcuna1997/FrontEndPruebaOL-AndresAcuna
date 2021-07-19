@@ -1,8 +1,9 @@
-# Getting Started with Create React App
+# Prueba tecnica (link de netlify)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://tecntest-andresacu-3f2cf9.netlify.app/
 
-## Available Scripts
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -29,7 +30,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
