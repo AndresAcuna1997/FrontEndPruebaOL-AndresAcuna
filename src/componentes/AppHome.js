@@ -3,7 +3,6 @@ import LoadingScreen from "./LoadingScreen";
 import LoginScreen from "./LoginScreen";
 import TablaDeDatos from "./TablaDeDatos";
 import CrearUsuario from "./CrearUsuario";
-import ClassComponent from "./ClassComponent";
 
 const AppHome = () => {
   const [data, setData] = useState([]);
